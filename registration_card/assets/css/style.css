@@ -1,0 +1,47 @@
+        /* Body styling for vertical and horizontal centering */
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #74b9ff, #a29bfe);
+        }
+
+        /* Card styling */
+        .registration-card {
+            max-width: 600px;
+            background-color: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Gradient button styling */
+        .btn-gradient {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        .btn-gradient:hover {
+            background: linear-gradient(to right, #2575fc, #6a11cb);
+        }
+
+        /* Input styling */
+        input[type="text"], input[type="email"], input[type="password"], input[type="tel"] {
+            border-radius: 5px;
+        }
+
+        /* Form spacing */
+        .form-row {
+            margin-bottom: 20px;
+        }
+
+        /* Center gender options */
+        .gender-options {
+            display: flex;
+            gap: 10px;
+        }
